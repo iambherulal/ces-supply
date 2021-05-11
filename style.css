@@ -1,0 +1,414 @@
+/*!
+Theme Name: CES Supply
+Theme URI: http://underscores.me/
+Author: PixaWebs
+Author URI: https://pixawebs.com
+Description: Custom Theme created for CES Supply
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ces
+GitHub Theme URI: iambherulal/ces-supply
+GitHub Theme URI: https://github.com/iambherulal/ces-supply
+
+*/
+
+.brand-text b {
+  font-weight: bold;
+}
+
+/* Update Profile */
+
+form#updateProfile label.error {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 90%;
+  color: #dc3545;
+  font-weight: 500 !important;
+}
+form#updateProfile input.form-control.error {
+  border-color: #dc3545;
+}
+
+.deal__dropdown-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.deal__dropdown-div select {
+  width: 15em;
+}
+
+.deal__dropdown-div label {
+  margin-right: 10px;
+}
+
+.deal_category a {
+  color: #fff;
+  background-color: #007bff;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  letter-spacing: 0.5px;
+}
+
+/* Single Listing  */
+
+.ribbon.deal__status-active {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.ribbon.deal__status-inactive {
+  background-color: #dc3545;
+  color: #fff;
+}
+.deal__status-box span.deal__status {
+  font-size: 17px;
+}
+
+.product__category span.badge {
+  font-size: 90%;
+  cursor: pointer;
+}
+
+.product__image-box img {
+  height: auto;
+  width: 220px;
+  margin-bottom: 13px;
+  object-fit: contain;
+}
+
+.product__image-box {
+  text-align: center;
+}
+
+#deals__feed .time {
+  font-size: 15px !important;
+}
+
+#deals__feed .socials i {
+  margin-right: 14px;
+  font-size: 17px;
+  color: #d2c8c8;
+  cursor: pointer;
+}
+
+#deals__feed .feed_title {
+  color: #333;
+}
+
+.deals__feed-container .feed_load_more {
+  text-align: center;
+}
+.single-deals h2.product__sku {
+  font-size: 1.5rem;
+}
+body.admin-bar .main-sidebar {
+  top: 32px;
+}
+
+.deals__feed-container .deals_feed-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 0 solid rgba(0, 0, 0, 0.125);
+}
+
+.deals__feed-container .deals_feed-meta p {
+  font-weight: 600;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+
+.deals__feed-container .deals_feed-meta {
+  align-items: center;
+}
+
+.single-deals h2.product__title {
+  font-size: 22px;
+  margin-right: 38px;
+  line-height: 31px;
+  font-weight: 500;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+/* Activity Datatable */
+div#vendor_activity_wrapper button.btn-secondary {
+  background: #343a40;
+  color: #ffffff;
+}
+
+div#vendor_activity_filter {
+  float: right;
+}
+
+td.deal__status .badge {
+  font-size: 15px;
+  padding: 5px 8px;
+}
+
+form#gform_1 input,
+form#gform_1 textarea {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 0 0 transparent;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+form#gform_1 input:focus,
+form#gform_1 textarea:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: inset 0 0 0 transparent;
+}
+
+textarea#input_1_5 {
+  height: 100px !important;
+}
+
+input#gform_submit_button_1 {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+  box-shadow: none !important;
+}
+
+form#gform_1 .validation_error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+form#gform_1 .validation_message {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 6px;
+}
+
+/* Search Result Page Design */
+
+.search-trigger {
+  display: none;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  top: 1px;
+  margin-left: 20px;
+}
+
+/* Seach Form */
+.search-form {
+  background-color: #dedede;
+  padding: 20px;
+  text-align: center;
+}
+.search-form label {
+  display: block;
+}
+.search-form-row {
+  display: flex;
+}
+.search-form .s {
+  min-width: 20px;
+  flex-basis: auto;
+  flex-grow: 1;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.search__container {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  height: 2.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.search__instruction {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.search-overlay {
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.96);
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(1.09);
+  transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+  box-sizing: border-box;
+}
+.search-overlay p {
+  padding-top: 15px;
+}
+.search-overlay .event-summary p {
+  padding-top: 0;
+}
+.search-overlay .event-summary {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+body.admin-bar .search-overlay {
+  top: 32px;
+}
+.search-overlay__top {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.search-overlay__icon {
+  margin-right: 10px;
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.search-overlay .professor-cards {
+  padding-top: 21px;
+}
+
+.search-overlay .professor-card {
+  width: 180px;
+}
+.search-overlay .link-list li {
+  font-size: 1.3rem;
+}
+
+.search-overlay--active {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spinner-loader {
+  margin-top: 45px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: 0.25rem solid rgba(0, 0, 0, 0.2);
+  border-top-color: black;
+  -webkit-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+}
+
+.search-overlay__icon {
+  margin-right: 10px;
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.search-term {
+  width: 75%;
+  box-sizing: border-box;
+  border: none;
+  padding: 15px 0;
+  margin: 0;
+  background-color: transparent;
+  font-size: 2rem;
+  font-weight: 500;
+  outline: none;
+  color: #007bff;
+}
+.search-overlay__close {
+  position: absolute;
+  top: 25px;
+  right: 16px;
+  font-size: 2.1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #fff;
+  color: #007bff;
+  line-height: 0.7;
+}
+
+.search-overlay__close:hover {
+  opacity: 1;
+}
+
+.link-list li {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  border-bottom: 1px dotted #dedede;
+}
+.search-overlay .link-list li {
+  font-size: 1.3rem;
+  list-style: none;
+}
+.link-list li:last-child {
+  border-bottom: none;
+}
+.link-list a {
+  color: #333;
+}
+
+ul.link-list.min-list {
+  padding-left: 0px;
+}
+
+.deals_search-result .badge {
+  margin-left: 8px;
+  padding: 4px 8px;
+  font-size: 13px;
+}
+
+/* Vendor Dashboard */
+
+.vendor_dashboard h3.card-title {
+  font-size: 1.5rem;
+}
